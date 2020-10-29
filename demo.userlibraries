@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Gradle: aopalliance:aopalliance:1.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+  </library>
+  <library name="Gradle: ch.qos.logback:logback-classic:1.2.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" />
+  </library>
+  <library name="Gradle: ch.qos.logback:logback-core:1.2.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" />
+  </library>
+  <library name="Gradle: com.beust:jcommander:1.48">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.48/bfcb96281ea3b59d626704f74bc6d625ff51cbce/jcommander-1.48.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.11.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.11.2/bc022ab0f0c83c07f9c52c5ab9a6a4932b15cc35/jackson-core-2.11.2.jar" />
+  </library>
+  <library name="Gradle: com.fasterxml.woodstox:woodstox-core:5.1.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.1.0/bd416e84cbd20cb5f2cf13c30b023e814a4d6107/woodstox-core-5.1.0.jar" />
+  </library>
+  <library name="Gradle: com.google.android:annotations:4.1.1.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar" />
+  </library>
+  <library name="Gradle: com.google.api-ads:ads-lib-appengine:4.11.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/ads-lib-appengine/4.11.0/b8640f52c6ec87f178d67999bcdfe1ba1a6678db/ads-lib-appengine-4.11.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api-ads:ads-lib-axis:4.11.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/ads-lib-axis/4.11.0/43e0ed7be0f2aa35e21e1cd75d27002c9845bb2e/ads-lib-axis-4.11.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api-ads:ads-lib:4.11.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/ads-lib/4.11.0/1e03c662f61f33b463ec177194afe5783f355916/ads-lib-4.11.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api-ads:client-libs-parent:pom:4.11.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/client-libs-parent/4.11.0/b329bcdc19e9fca6eed1dbc73f5738c86a0782ad/client-libs-parent-4.11.0.pom" />
+  </library>
+  <library name="Gradle: com.google.api-ads:google-ads-annotation-processing:9.0.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/google-ads-annotation-processing/9.0.0/9ffc79cc5c7eb4ab239484cc9805930b95e7ad69/google-ads-annotation-processing-9.0.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api-ads:google-ads-parent:pom:9.0.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/google-ads-parent/9.0.0/cfeb711098ab06bde0d4475552e1989be779607f/google-ads-parent-9.0.0.pom" />
+  </library>
+  <library name="Gradle: com.google.api-ads:google-ads:9.0.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-ads/google-ads/9.0.0/883af8ddd21c8d2cec0b1bd5057fc9dbf291da11/google-ads-9.0.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api-client:google-api-client-appengine:1.26.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-appengine/1.26.1/e90510b2e3c6bbfd1e70ad750518255f403e2fac/google-api-client-appengine-1.26.1.jar" />
+  </library>
+  <library name="Gradle: com.google.api-client:google-api-client-servlet:1.26.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-servlet/1.26.1/c92ae23514302a9ee1b4b98c0a875127e98f872a/google-api-client-servlet-1.26.1.jar" />
+  </library>
+  <library name="Gradle: com.google.api-client:google-api-client:1.26.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.26.1/9ceb15eeadfb31fe78db140006f15a3c08d55812/google-api-client-1.26.1.jar" />
+  </library>
+  <library name="Gradle: com.google.api.grpc:proto-google-common-protos:1.17.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.17.0/40471bf2045151c17da555889b5550fcfd5224a8/proto-google-common-protos-1.17.0.jar" />
+  </library>
+  <library name="Gradle: com.google.api:api-common:1.9.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.9.3/2c962139edb24b4877d90648fad8d8d72ca944ad/api-common-1.9.3.jar" />
+  </library>
+  <library name="Gradle: com.google.api:gax-grpc:1.57.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api/gax-grpc/1.57.1/6761474d0291ffc03a0dc1ff61f699a93b9290cc/gax-grpc-1.57.1.jar" />
+  </library>
+  <library name="Gradle: com.google.api:gax:1.57.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.57.1/3f7267ac92f07d7718d979b21e0ade2160aa3a34/gax-1.57.1.jar" />
+  </library>
+  <library name="Gradle: com.google.auth:google-auth-library-credentials:0.21.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.21.0/769fec12a2775a3be2b7039f7923107ba9a37526/google-auth-library-credentials-0.21.0.jar" />
+  </library>
+  <library name="Gradle: com.google.auth:google-auth-library-oauth2-http:0.21.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.21.0/948f54a96e9a505a0356d878cd411ae320128476/google-auth-library-oauth2-http-0.21.0.jar" />
+  </library>
+  <library name="Gradle: com.google.auto.value:auto-value-annotations:1.7.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.7.2/7eec707327ec1663b9387c8671efb6808750e039/auto-value-annotations-1.7.2.jar" />
+  </library>
+  <library name="Gradle: com.google.code.findbugs:jsr305:3.0.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" />
+  </library>
+  <library name="Gradle: com.google.code.gson:gson:2.8.6">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.6/9180733b7df8542621dc12e21e87557e8c99b8cb/gson-2.8.6.jar" />
+  </library>
+  <library name="Gradle: com.google.errorprone:error_prone_annotations:2.3.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/dac170e4594de319655ffb62f41cbd6dbb5e601e/error_prone_annotations-2.3.4.jar" />
+  </library>
+  <library name="Gradle: com.google.guava:failureaccess:1.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" />
+  </library>
+  <library name="Gradle: com.google.guava:guava:29.0-jre">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/29.0-jre/801142b4c3d0f0770dd29abea50906cacfddd447/guava-29.0-jre.jar" />
+  </library>
+  <library name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+  </library>
+  <library name="Gradle: com.google.http-client:google-http-client-appengine:1.26.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.26.0/cbc191234c707486c2d92c69191573bcb1e97bb3/google-http-client-appengine-1.26.0.jar" />
+  </library>
+  <library name="Gradle: com.google.http-client:google-http-client-jackson2:1.35.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.35.0/c1c2a08792b935f3345590783ada872f4a0997f1/google-http-client-jackson2-1.35.0.jar" />
+  </library>
+  <library name="Gradle: com.google.http-client:google-http-client-jdo:1.26.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jdo/1.26.0/2a9d97bfb4d51852611669a4ccc23f8db63bb6d4/google-http-client-jdo-1.26.0.jar" />
+  </library>
+  <library name="Gradle: com.google.http-client:google-http-client:1.35.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.35.0/f2348dd57d5417c29388bd430f5055dca863c600/google-http-client-1.35.0.jar" />
+  </library>
+  <library name="Gradle: com.google.inject.extensions:guice-assistedinject:4.2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.inject.extensions/guice-assistedinject/4.2.2/c33fb10080d58446f752b4fcfff8a5fabb80a449/guice-assistedinject-4.2.2.jar" />
+  </library>
+  <library name="Gradle: com.google.inject.extensions:guice-multibindings:4.2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.inject.extensions/guice-multibindings/4.2.2/f585dd1b4064b13151bd036f63fd115d2af382cc/guice-multibindings-4.2.2.jar" />
+  </library>
+  <library name="Gradle: com.google.inject:guice:4.2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.inject/guice/4.2.2/6dacbe18e5eaa7f6c9c36db33b42e7985e94ce77/guice-4.2.2.jar" />
+  </library>
+  <library name="Gradle: com.google.j2objc:j2objc-annotations:1.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar" />
+  </library>
+  <library name="Gradle: com.google.oauth-client:google-oauth-client-appengine:1.26.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-appengine/1.26.0/76d84dcb8c0de617a82224aa48d83560f3dbb569/google-oauth-client-appengine-1.26.0.jar" />
+  </library>
+  <library name="Gradle: com.google.oauth-client:google-oauth-client-servlet:1.26.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-servlet/1.26.0/2cb6b273e1eb3d7274b2bb5bf02578bf610bfd5e/google-oauth-client-servlet-1.26.0.jar" />
+  </library>
+  <library name="Gradle: com.google.oauth-client:google-oauth-client:1.26.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.26.0/a4efb7949a9176e2313a98ab5419173939c9ae1b/google-oauth-client-1.26.0.jar" />
+  </library>
+  <library name="Gradle: com.google.protobuf:protobuf-java-util:3.12.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.12.0/d7cbfbf702e9026be96edb9c85b183333adb0683/protobuf-java-util-3.12.0.jar" />
+  </library>
+  <library name="Gradle: com.google.protobuf:protobuf-java:3.12.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.12.0/77295c02922228635d9bf64bd8793c2a70f6cceb/protobuf-java-3.12.0.jar" />
+  </library>
+  <library name="Gradle: com.jayway.jsonpath:json-path:2.4.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/765a4401ceb2dc8d40553c2075eb80a8fa35c2ae/json-path-2.4.0.jar" />
+  </library>
+  <library name="Gradle: com.opencsv:opencsv:4.6">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/4.6/b7ce164e9e75be4b5eb42fd89c9c53ebecea6729/opencsv-4.6.jar" />
+  </library>
+  <library name="Gradle: com.squareup:javapoet:1.11.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.11.1/210e69f58dfa76c5529a303913b4a30c2bfeb76b/javapoet-1.11.1.jar" />
+  </library>
+  <library name="Gradle: com.sun.activation:jakarta.activation:1.2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/74548703f9851017ce2f556066659438019e7eb5/jakarta.activation-1.2.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.activation:javax.activation:1.2.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.activation/javax.activation/1.2.0/bf744c1e2776ed1de3c55c8dac1057ec331ef744/javax.activation-1.2.0.jar" />
+  </library>
+  <library name="Gradle: com.sun.istack:istack-commons-runtime:3.0.11">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/3.0.11/4293b5f4e4e89d598f62bb2ba73b32132e7c3a27/istack-commons-runtime-3.0.11.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.bind:jaxb-jxc:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-jxc/2.3.2/3383f16f7fc70947333e51a611641da2628fe289/jaxb-jxc-2.3.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.bind:jaxb-ri:pom:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-ri/2.3.2/f37875be0bc7d265b5bbb08eb55b2345c27e67aa/jaxb-ri-2.3.2.pom" />
+  </library>
+  <library name="Gradle: com.sun.xml.bind:jaxb-xjc:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-xjc/2.3.2/264a255681ebe9f9e955182c7922a34b5f7c4578/jaxb-xjc-2.3.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.fastinfoset:FastInfoset:1.2.16">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.16/4eb6a0adad553bf759ffe86927df6f3b848c8bea/FastInfoset-1.2.16.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.messaging.saaj:saaj-impl:1.5.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.messaging.saaj/saaj-impl/1.5.2/21d07203e7d212681034c188ca3c6108212d526b/saaj-impl-1.5.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.stream.buffer:streambuffer:1.5.7">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.stream.buffer/streambuffer/1.5.7/83ffbbb9e844d6d3a508dfe53e3fb8ba26a65b93/streambuffer-1.5.7.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.ws:jaxws-eclipselink-plugin:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.ws/jaxws-eclipselink-plugin/2.3.2/a9763d818bbf0eae2cd0dc618665a250e8f24e51/jaxws-eclipselink-plugin-2.3.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.ws:jaxws-ri:pom:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.ws/jaxws-ri/2.3.2/15ee0d893c452db7c4865eacb37cf5355c6c5cd7/jaxws-ri-2.3.2.pom" />
+  </library>
+  <library name="Gradle: com.sun.xml.ws:jaxws-rt:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.ws/jaxws-rt/2.3.2/f0ee79b20528a73d8f53757f17d9eb302ac58b80/jaxws-rt-2.3.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.ws:jaxws-tools:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.ws/jaxws-tools/2.3.2/487ba0d109863f6d4a37207a1fd2997478f73cff/jaxws-tools-2.3.2.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.ws:policy:2.7.6">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.ws/policy/2.7.6/a2af3d0a0947143a705ed82393fcf3944f024bcc/policy-2.7.6.jar" />
+  </library>
+  <library name="Gradle: com.sun.xml.ws:sdo-eclipselink-plugin:2.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.sun.xml.ws/sdo-eclipselink-plugin/2.3.2/ba6c6e0773ab640fde2bc6e9f7e4d238b45c24ed/sdo-eclipselink-plugin-2.3.2.jar" />
+  </library>
+  <library name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar" />
+  </library>
+  <library name="Gradle: commons-beanutils:commons-beanutils:1.9.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.3/c845703de334ddc6b4b3cd26835458cb1cba1f3d/commons-beanutils-1.9.3.jar" />
+  </library>
+  <library name="Gradle: commons-codec:commons-codec:1.14">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.14/3cb1181b2141a7e752f5bdc998b7ef1849f726cf/commons-codec-1.14.jar" />
+  </library>
+  <library name="Gradle: commons-collections:commons-collections:3.2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar" />
+  </library>
+  <library name="Gradle: commons-configuration:commons-configuration:1.10">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.10/2b36e4adfb66d966c5aef2d73deb6be716389dc9/commons-configuration-1.10.jar" />
+  </library>
+  <library name="Gradle: commons-discovery:commons-discovery:0.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-discovery/commons-discovery/0.4/9e3417d3866d9f71e83b959b229b35dc723c7bea/commons-discovery-0.4.jar" />
+  </library>
+  <library name="Gradle: commons-lang:commons-lang:2.6">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
+  </library>
+  <library name="Gradle: commons-logging:commons-logging:1.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-alts:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-alts/1.30.0/8d6229ee0da24e3e799a189b32a05263d99d9f6e/grpc-alts-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-api:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.30.0/a7a962d031375526ac010390ff3682fa16b42b85/grpc-api-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-auth:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-auth/1.30.0/8288f81e9b106b21d73805a6762ac21699439d1b/grpc-auth-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-context:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.30.0/9580a22f4a63f1c8f634df70b3c5ff86cc1489fc/grpc-context-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-core:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.30.0/32484bbf4b720e2b03127caa6898ddc1b2467900/grpc-core-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-grpclb:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-grpclb/1.30.0/c14e393c5f1d6ebda95f127c862b29103882221/grpc-grpclb-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-netty-shaded:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.30.0/1c4b42f8dcff48f5ef6c1fec3812f610e5b59b6a/grpc-netty-shaded-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-protobuf-lite:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.30.0/2853db9733125512567800e5238485b1dbfed191/grpc-protobuf-lite-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-protobuf:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.30.0/c84dde471b2b24a85aa890194e25c36d61b67863/grpc-protobuf-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.grpc:grpc-stub:1.30.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.30.0/1b2b8ea530fab11449421b59ce07f466f1ca8770/grpc-stub-1.30.0.jar" />
+  </library>
+  <library name="Gradle: io.netty:netty-tcnative-boringssl-static:2.0.34.Final">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.34.Final/2c6ed37507465974089e51d425787a11c53cdfb5/netty-tcnative-boringssl-static-2.0.34.Final.jar" />
+  </library>
+  <library name="Gradle: io.opencensus:opencensus-api:0.24.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.24.0/f974451b19007ce820f433311ce8adb88e2b7d2c/opencensus-api-0.24.0.jar" />
+  </library>
+  <library name="Gradle: io.opencensus:opencensus-contrib-http-util:0.24.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-http-util/0.24.0/6d96406c272d884038eb63b262458df75b5445/opencensus-contrib-http-util-0.24.0.jar" />
+  </library>
+  <library name="Gradle: io.perfmark:perfmark-api:0.19.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.19.0/2bfc352777fa6e27ad1e11d11ea55651ba93236b/perfmark-api-0.19.0.jar" />
+  </library>
+  <library name="Gradle: jakarta.activation:jakarta.activation-api:1.2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/99f53adba383cb1bf7c3862844488574b559621f/jakarta.activation-api-1.2.2.jar" />
+  </library>
+  <library name="Gradle: jakarta.annotation:jakarta.annotation-api:1.3.5">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar" />
+  </library>
+  <library name="Gradle: jakarta.jws:jakarta.jws-api:1.1.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.jws/jakarta.jws-api/1.1.1/2fb6fbd7c39ab09565ad25af1ba7d5c3d43162c4/jakarta.jws-api-1.1.1.jar" />
+  </library>
+  <library name="Gradle: jakarta.jws:jakarta.jws-api:2.1.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.jws/jakarta.jws-api/2.1.0/7d283ef13e49c1422701e30639371edca788c609/jakarta.jws-api-2.1.0.jar" />
+  </library>
+  <library name="Gradle: jakarta.mail:jakarta.mail-api:1.6.5">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.mail/jakarta.mail-api/1.6.5/a2964361386693227e6c27ed6323562052efcabb/jakarta.mail-api-1.6.5.jar" />
+  </library>
+  <library name="Gradle: jakarta.persistence:jakarta.persistence-api:2.2.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/2.2.3/8f6ea5daedc614f07a3654a455660145286f024e/jakarta.persistence-api-2.2.3.jar" />
+  </library>
+  <library name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar" />
+  </library>
+  <library name="Gradle: jakarta.xml.soap:jakarta.xml.soap-api:1.4.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.xml.soap/jakarta.xml.soap-api/1.4.2/4f71fa8ca30be4d04ba658339df3c927fa21209a/jakarta.xml.soap-api-1.4.2.jar" />
+  </library>
+  <library name="Gradle: jakarta.xml.ws:jakarta.xml.ws-api:2.3.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/jakarta.xml.ws/jakarta.xml.ws-api/2.3.3/529fe0136be92861e5a255fbc99146f1943c4332/jakarta.xml.ws-api-2.3.3.jar" />
+  </library>
+  <library name="Gradle: javax.annotation:javax.annotation-api:1.3.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar" />
+  </library>
+  <library name="Gradle: javax.inject:javax.inject:1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+  </library>
+  <library name="Gradle: javax.jdo:jdo2-api:2.3-eb">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.jdo/jdo2-api/2.3-eb/ec6b839251fb235a86ccd23adc4fc62dab07a7d8/jdo2-api-2.3-eb.jar" />
+  </library>
+  <library name="Gradle: javax.servlet:servlet-api:2.5">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.servlet/servlet-api/2.5/5959582d97d8b61f4d154ca9e495aafd16726e34/servlet-api-2.5.jar" />
+  </library>
+  <library name="Gradle: javax.transaction:transaction-api:1.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.transaction/transaction-api/1.1/2ca09f0b36ca7d71b762e14ea2ff09d5eac57558/transaction-api-1.1.jar" />
+  </library>
+  <library name="Gradle: javax.xml.soap:javax.xml.soap-api:1.4.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.xml.soap/javax.xml.soap-api/1.4.0/667ef2eee594ca7e05a1cbe0b37a428f7b57778f/javax.xml.soap-api-1.4.0.jar" />
+  </library>
+  <library name="Gradle: javax.xml:jaxrpc-api:1.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/javax.xml/jaxrpc-api/1.1/64e6fa9461f714ab2c1a66d552e3200e66d2510b/jaxrpc-api-1.1.jar" />
+  </library>
+  <library name="Gradle: joda-time:joda-time:2.8.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar" />
+  </library>
+  <library name="Gradle: net.bytebuddy:byte-buddy-agent:1.10.14">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.14/627b576d22189363c49eb59859664490ae230b38/byte-buddy-agent-1.10.14.jar" />
+  </library>
+  <library name="Gradle: net.bytebuddy:byte-buddy:1.10.14">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.14/5288bd154aa7bc8ea81a658f60a790f646025832/byte-buddy-1.10.14.jar" />
+  </library>
+  <library name="Gradle: net.minidev:accessors-smart:1.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar" />
+  </library>
+  <library name="Gradle: net.minidev:json-smart:2.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar" />
+  </library>
+  <library name="Gradle: org.apache.axis:axis:1.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.axis/axis/1.4/94a9ce681a42d0352b3ad22659f67835e560d107/axis-1.4.jar" />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-collections4:4.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.2/54ebea0a5b653d3c680131e73fe807bb8f78c4ed/commons-collections4-4.2.jar" />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-csv:1.8">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-csv/1.8/37ca9a9aa2d4be2599e55506a6d3170dd7a3df4/commons-csv-1.8.jar" />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-lang3:3.10">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.10/e155460aaf5b464062a09c3923f089ce99128a17/commons-lang3-3.10.jar" />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-text:1.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.3/9abf61708a66ab5e55f6169a200dbfc584b546d9/commons-text-1.3.jar" />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpclient:4.5.12">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.12/4023a2a80b64c25926911faf350b50cd2a29220f/httpclient-4.5.12.jar" />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.13">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/853b96d3afbb7bf8cc303fe27ee96836a10c1834/httpcore-4.4.13.jar" />
+  </library>
+  <library name="Gradle: org.apache.logging.log4j:log4j-api:2.13.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar" />
+  </library>
+  <library name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.13.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.13.3/966f6fd1af4959d6b12bfa880121d4a2b164f857/log4j-to-slf4j-2.13.3.jar" />
+  </library>
+  <library name="Gradle: org.apiguardian:apiguardian-api:1.1.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar" />
+  </library>
+  <library name="Gradle: org.assertj:assertj-core:3.16.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.16.1/6e772120aff69ca3d1583b3d1b36b7529de43ba1/assertj-core-3.16.1.jar" />
+  </library>
+  <library name="Gradle: org.checkerframework:checker-qual:2.11.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.11.1/8c43bf8f99b841d23aadda6044329dad9b63c185/checker-qual-2.11.1.jar" />
+  </library>
+  <library name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.18">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.18/f7aa683ea79dc6681ee9fb95756c999acbb62f5d/animal-sniffer-annotations-1.18.jar" />
+  </library>
+  <library name="Gradle: org.codehaus.woodstox:stax2-api:4.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.1/b6e20f3760016b70358e9227be904ecb26a50530/stax2-api-4.1.jar" />
+  </library>
+  <library name="Gradle: org.conscrypt:conscrypt-openjdk-uber:2.2.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.conscrypt/conscrypt-openjdk-uber/2.2.1/59a346d64c0ddca750c5c877e274d5e6278e53ce/conscrypt-openjdk-uber-2.2.1.jar" />
+  </library>
+  <library name="Gradle: org.eclipse.persistence:commonj.sdo:2.1.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/commonj.sdo/2.1.1/90d4c89ce0a69f58619f1a247bbf420122139ff5/commonj.sdo-2.1.1.jar" />
+  </library>
+  <library name="Gradle: org.eclipse.persistence:org.eclipse.persistence.asm:2.7.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.asm/2.7.4/73e1de4ae0366373039145350fd0b0a460eb1f25/org.eclipse.persistence.asm-2.7.4.jar" />
+  </library>
+  <library name="Gradle: org.eclipse.persistence:org.eclipse.persistence.core:2.7.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.core/2.7.4/6a3c7528f7e458a9ea7ed4b72d19bbe5509322e3/org.eclipse.persistence.core-2.7.4.jar" />
+  </library>
+  <library name="Gradle: org.eclipse.persistence:org.eclipse.persistence.moxy:2.7.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.moxy/2.7.4/a1f72022d37591bfcea039ce7a04598f0b168142/org.eclipse.persistence.moxy-2.7.4.jar" />
+  </library>
+  <library name="Gradle: org.eclipse.persistence:org.eclipse.persistence.sdo:2.7.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.eclipse.persistence/org.eclipse.persistence.sdo/2.7.4/31b1fd600922c61a50dd1f9c2cfcaa6de92f5c86/org.eclipse.persistence.sdo-2.7.4.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.external:management-api:3.2.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.external/management-api/3.2.1/2702916249edcf7dedf0f9af8ca00a90777590c8/management-api-3.2.1.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.gmbal:gmbal:4.0.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.gmbal/gmbal/4.0.0/38e088859faea7433643e1db9d8b5829668b515c/gmbal-4.0.0.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.ha:ha-api:3.1.12">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.ha/ha-api/3.1.12/59fbeca6cc196da8159e4957eabe49f23d1e691a/ha-api-3.1.12.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.3/c46b68a6e3a2d84ba4eb14c6a8a1a9a7be4048bc/jaxb-runtime-2.3.3.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.jaxb:txw2:2.3.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.3/12f70b0ea4fc1ad45315e842f63f7c9a46f46530/txw2-2.3.3.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.pfl:pfl-asm:4.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.pfl/pfl-asm/4.0.1/c6f99a7c30e74f9c8907c47c38fe89cf5f041861/pfl-asm-4.0.1.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.pfl:pfl-basic-tools:4.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.pfl/pfl-basic-tools/4.0.1/189b7b97c0a0026d69ff8e184a0d0591a96c2b06/pfl-basic-tools-4.0.1.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.pfl:pfl-basic:4.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.pfl/pfl-basic/4.0.1/1e04260fd4afde6dea9b10fd118cb6df91851c2c/pfl-basic-4.0.1.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.pfl:pfl-dynamic:4.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.pfl/pfl-dynamic/4.0.1/c5be0e4414e3844b2528e18d8e537a8b9ab2a361/pfl-dynamic-4.0.1.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.pfl:pfl-tf-tools:4.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.pfl/pfl-tf-tools/4.0.1/44acf9f297cf2c16ee06a752277ad0794f9ee8cb/pfl-tf-tools-4.0.1.jar" />
+  </library>
+  <library name="Gradle: org.glassfish.pfl:pfl-tf:4.0.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.glassfish.pfl/pfl-tf/4.0.1/ae991af56aa977414630dcb30d3bca9aae2afb2f/pfl-tf-4.0.1.jar" />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest:2.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-api:5.6.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.6.2/c9ba885abfe975cda123bf6f8f0a69a1b46956d0/junit-jupiter-api-5.6.2.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.6.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.6.2/c0833bd6de29dd77f8d071025b97b8b434308cd3/junit-jupiter-engine-5.6.2.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-params:5.6.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.6.2/f2a64a42cf73077062c2386db0598062b7480d91/junit-jupiter-params-5.6.2.jar" />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter:5.6.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.6.2/b5c481685b6a8ca91c0d46f28f886a444354daa5/junit-jupiter-5.6.2.jar" />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-commons:1.6.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.6.2/7644a14b329e76b5fe487628b50fb5eab6ba7d26/junit-platform-commons-1.6.2.jar" />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-engine:1.6.2">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.6.2/1752cad2579e20c2b224602fe846fc660fb35805/junit-platform-engine-1.6.2.jar" />
+  </library>
+  <library name="Gradle: org.jvnet.mimepull:mimepull:1.9.13">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.jvnet.mimepull/mimepull/1.9.13/a4f12d0da986cae55dd5c4a735b4fefc700eb266/mimepull-1.9.13.jar" />
+  </library>
+  <library name="Gradle: org.jvnet.staxex:stax-ex:1.8.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.8.3/4d69b68ee007aa15238cd4477392068b32747df3/stax-ex-1.8.3.jar" />
+  </library>
+  <library name="Gradle: org.mockito:mockito-core:3.3.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.3.3/4878395d4e63173f3825e17e5e0690e8054445f1/mockito-core-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.mockito:mockito-junit-jupiter:3.3.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.3.3/1176ce43cf773e11a5a318ff04e57e55f9187347/mockito-junit-jupiter-3.3.3.jar" />
+  </library>
+  <library name="Gradle: org.objenesis:objenesis:2.6">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.6/639033469776fd37c08358c6b92a4761feb2af4b/objenesis-2.6.jar" />
+  </library>
+  <library name="Gradle: org.opentest4j:opentest4j:1.2.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar" />
+  </library>
+  <library name="Gradle: org.ow2.asm:asm:5.0.4">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar" />
+  </library>
+  <library name="Gradle: org.projectlombok:lombok:1.18.12">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+  </library>
+  <library name="Gradle: org.skyscreamer:jsonassert:1.5.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:jul-to-slf4j:1.7.30">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/d58bebff8cbf70ff52b59208586095f467656c30/jul-to-slf4j-1.7.30.jar" />
+  </library>
+  <library name="Gradle: org.slf4j:slf4j-api:1.7.30">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.3.4.RELEASE/ff9efafb9d62c17d8c3c1faec7afad147c924263/spring-boot-autoconfigure-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-configuration-processor:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.4.RELEASE/b0ff01c3e647564fe2bd6ad470832fc700464e63/spring-boot-configuration-processor-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-devtools:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.3.4.RELEASE/c904a412e16d5f5bf4399008e4683eeff21e61bf/spring-boot-devtools-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.3.4.RELEASE/677a66ac80e88cefaaca64e72b5523eb4836b7ae/spring-boot-starter-logging-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-test:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.3.4.RELEASE/a5fc832082202954b704ef4221a57a47adfb675f/spring-boot-starter-test-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.3.4.RELEASE/cfeb7cce94a342b4b31b64c42a82c287c2f17207/spring-boot-starter-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.3.4.RELEASE/fdfe878383124d96d477ceba4799eb546cfbdf3d/spring-boot-test-autoconfigure-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-test:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.3.4.RELEASE/e0de9f2db2ef11082af1e9a74259edc7826dbc2f/spring-boot-test-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot:2.3.4.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.3.4.RELEASE/f23f14ae4062d5983db89b7c7336166b6734fc57/spring-boot-2.3.4.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-aop:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.9.RELEASE/6ae14b8a11b4a30f22a15c8f97ac4b5d0979a4ef/spring-aop-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-beans:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.2.9.RELEASE/80e722ffa73a43459f639d36e25aa4e4a08d8d79/spring-beans-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-context:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.2.9.RELEASE/4003ef2db8b5e4b22330fc6d67aae7ac5d304319/spring-context-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-core:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.9.RELEASE/400a6fdb45bfa5318aa7d06360f4495b75080bb5/spring-core-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-expression:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.2.9.RELEASE/c8584de306be115ef1715b7ed9d50fb2802867aa/spring-expression-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-jcl:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.2.9.RELEASE/39777c3eeaf3d0957d9fdffbb75e3ff8a89caf62/spring-jcl-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.springframework:spring-test:5.2.9.RELEASE">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.2.9.RELEASE/cdcd16d9931ee1d9cba35ca3c465521794c0b98a/spring-test-5.2.9.RELEASE.jar" />
+  </library>
+  <library name="Gradle: org.threeten:threetenbp:1.4.1">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.4.1/8e0de17c5077523503812837fa069459103fb714/threetenbp-1.4.1.jar" />
+  </library>
+  <library name="Gradle: org.xmlunit:xmlunit-core:2.7.0">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.7.0/4d014eac96329c70175116b185749765cee0aad5/xmlunit-core-2.7.0.jar" />
+  </library>
+  <library name="Gradle: org.yaml:snakeyaml:1.26">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.26/a78a8747147d2c5807683e76ec2b633e95c14fe9/snakeyaml-1.26.jar" />
+  </library>
+  <library name="Gradle: wsdl4j:wsdl4j:1.6.3">
+    <archive path="C:/Users/Przemo/.gradle/caches/modules-2/files-2.1/wsdl4j/wsdl4j/1.6.3/6d106a6845a3d3477a1560008479312888e94f2f/wsdl4j-1.6.3.jar" />
+  </library>
+</eclipse-userlibraries>
+

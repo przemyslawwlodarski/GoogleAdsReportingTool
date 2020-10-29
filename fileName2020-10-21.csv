@@ -1,0 +1,101 @@
+KeyWord;MatchType;AdGroup;Campaign;Cost;Bounce Rate;Clicks
+lubella;EXACT;Lubella_Pure Brand_E;Lubella Classic - Brand;9,14;0,0;8
+'+makarony '+lubella;BROAD;Lubella_BMM;Lubella Classic - Brand;0,87;0,0;1
+'+makaron '+lubella;BROAD;Lubella_BMM;Lubella Classic - Brand;8,35;0,0;6
+'+lubella '+makaron;BROAD;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+lubella '+makarony;BROAD;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+lubella '+przepisy;BROAD;Lubella_BMM;Lubella Classic - Brand;2,45;0,0;5
+makarony lubella;EXACT;Lubella_exact;Lubella Classic - Brand;1,54;0,0;1
+'+przepisy '+lubella;BROAD;Lubella_BMM;Lubella Classic - Brand;1,49;0,0;2
+lubella makarony;EXACT;Lubella_exact;Lubella Classic - Brand;2,38;0,0;3
+lubella reklama;EXACT;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+'+lubella '+reklama;BROAD;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella przepisy;EXACT;Lubella_exact;Lubella Classic - Brand;0,04;0,0;2
+lubela;EXACT;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+reklama lubella;EXACT;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+reklama makaronu lubella;EXACT;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+100 lubela;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+100 lubella;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+100 lubelli;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000 lubela;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000 lubella;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000 lubelli;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000 pomys³ów jedna lubella;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000 pomys³ów lubella;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000 pomys³ów makaron;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella tysi¹c pomys³ów;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c lubela;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c lubella;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c pomys³ów jedna lubella;EXACT;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+100 '+lubela;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+100 '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+100 '+lubelli;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1000 '+lubela;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1000 '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1000 '+lubelli;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1000 '+pomys³ów '+jedna '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1000 '+pomys³ów '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1000 '+pomys³ów '+makaron;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1001 '+lubela;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1001 '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+1001 '+lubelli;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+lubella '+tysi¹c '+pomys³ów;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+tysi¹c '+lubela;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+tysi¹c '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+tysi¹c '+pomys³ów '+jedna '+lubella;BROAD;1000 pomys³ów_BMM;Lubella Classic - Brand;0,0;0,0;0
+mini;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+100;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+1000;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+tysiac;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella makaron;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+makaron lubella;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella przepisy;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubela;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella makarony;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella maspex;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella reklama;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+makarony lubella;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+przepisy lubella;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+reklama lubella;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+reklama makaronu lubella;EXACT;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+uwielbiam;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+lubella;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+uwielbiam.pl;PHRASE;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+lubella '+maspex;BROAD;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+reklama '+lubella;BROAD;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+'+reklama '+makaronu '+lubella;BROAD;Lubella_BMM;Lubella Classic - Brand;0,0;0,0;0
+mini;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+100;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+1000;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+tysiac;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+uwielbiam;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+uwielbiam.pl;PHRASE;Lubella_Pure Brand_E;Lubella Classic - Brand;0,0;0,0;0
+100 lubela;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+100 lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+100 lubelli;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1000 lubela;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1000 lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1000 lubelli;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1000 pomys³ów jedna lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1000 pomys³ów lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1000 pomys³ów makaron;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1001 lubela;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1001 lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+1001 lubelli;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+lubella tysi¹c pomys³ów;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c lubela;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c pomys³ów jedna lubella;EXACT;1000 pomys³ów_exact;Lubella Classic - Brand;0,0;0,0;0
+mini;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+100;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+1000;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+tysiac;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+lubela;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+lubella maspex;EXACT;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+przepisy lubella;EXACT;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+tysi¹c;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+uwielbiam;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+lubella;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
+uwielbiam.pl;PHRASE;Lubella_exact;Lubella Classic - Brand;0,0;0,0;0
