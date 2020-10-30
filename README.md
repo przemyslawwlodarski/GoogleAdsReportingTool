@@ -9,9 +9,9 @@ This project is simple tool that allows to automate the generation of time-consu
 	
 ## Technologies
 Project is created with:
-*Java 8.
-*Lombok
-*Google Ads librarys
+* Java 8.
+* Lombok
+* Google Ads librarys
 	
 ## Setup
 To run this project you have to obtain developer API from Google and create OAuth 2.0 Client.
