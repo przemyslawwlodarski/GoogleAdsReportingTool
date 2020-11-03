@@ -1,12 +1,8 @@
 package com.pfx.demo.keywords;
 
 import com.google.ads.googleads.lib.GoogleAdsClient;
-import com.google.ads.googleads.v5.common.Metrics;
 import com.google.ads.googleads.v5.errors.GoogleAdsError;
 import com.google.ads.googleads.v5.errors.GoogleAdsException;
-import com.google.ads.googleads.v5.resources.AdGroup;
-import com.google.ads.googleads.v5.resources.AdGroupCriterion;
-import com.google.ads.googleads.v5.resources.Campaign;
 import com.google.ads.googleads.v5.services.GoogleAdsRow;
 import com.google.ads.googleads.v5.services.GoogleAdsServiceClient;
 import com.google.ads.googleads.v5.services.SearchGoogleAdsStreamRequest;
@@ -16,10 +12,6 @@ import com.pfx.demo.client.AdsClientCreator;
 import com.pfx.demo.dto.KeywordDto;
 import lombok.Getter;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,24 +40,10 @@ public class GetDuplicateKeywords {
         try (GoogleAdsServiceClient googleAdsServiceClient =
                      googleAdsClient.getLatestVersion().createGoogleAdsServiceClient()) {
             String searchQuery =
-                    "SELECT campaign.id, "
-                            + "campaign.name, "
-                            + "ad_group.id, "
-                            + "ad_group.name, "
-                            + "ad_group_criterion.criterion_id, "
-                            + "ad_group_criterion.keyword.text, "
-                            + "ad_group_criterion.keyword.match_type, "
-                            + "metrics.impressions, "
-                            + "metrics.clicks, "
-                            + "metrics.cost_micros, "
-                            + "metrics.bounce_rate "
-                            + "metrics.historical_quality_score"
-                            + "FROM Keywords Performance Report "
-                            + "WHERE segments.date DURING LAST_7_DAYS "
-                            + "AND campaign.advertising_channel_type = 'SEARCH' "
-                            + "AND ad_group.status = 'ENABLED' "
-                            + "AND campaign.name = 'Lubella Classic - Brand' "
-                            + "ORDER BY metrics.impressions DESC ";
+                    "SELECT campaign.id " +
+                            "FROM KEYWORDS_PERFORMANCE_REPORT ";
+
+
 
             // Constructs the SearchGoogleAdsStreamRequest.
             SearchGoogleAdsStreamRequest request =
@@ -83,7 +61,8 @@ public class GetDuplicateKeywords {
             // field values for the keyword in each row.
             for (SearchGoogleAdsStreamResponse response : stream) {
                 for (GoogleAdsRow googleAdsRow : response.getResultsList()) {
-                    Campaign campaign = googleAdsRow.getCampaign();
+                    System.out.println(googleAdsRow);
+                    /*Campaign campaign = googleAdsRow.getCampaign();
                     AdGroup adGroup = googleAdsRow.getAdGroup();
                     AdGroupCriterion adGroupCriterion = googleAdsRow.getAdGroupCriterion();
                     Metrics metrics = googleAdsRow.getMetrics();
@@ -95,9 +74,9 @@ public class GetDuplicateKeywords {
                             metrics.getCostMicros(),
                             metrics.getBounceRate(),
                             metrics.getClicks());
-                    keywordDtoList.add(keywordDto);
+                    keywordDtoList.add(keywordDto);*/
                 }
-            }
+            }/*
             String date = LocalDate.now().toString();
             File file = new File("Znajdź aktywne duplikaty słów kluczowych "+ date +".csv");
             PrintWriter pw = new PrintWriter(file);
@@ -116,8 +95,9 @@ public class GetDuplicateKeywords {
                 }
             }
             pw.write(sb.toString());
-            pw.close();
-        } catch (FileNotFoundException e) {
+            pw.close();*/
+        //} catch (FileNotFoundException e) {
+        } catch (Exception e) {
 
             e.printStackTrace();
         }
