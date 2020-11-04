@@ -2,8 +2,7 @@ package com.pfx.demo;
 
 import com.pfx.demo.app.BadInput;
 import com.pfx.demo.app.Exit;
-import com.pfx.demo.app.KeyWordsBrAndCost;
-import com.pfx.demo.keywords.GetDuplicateKeywords;
+import com.pfx.demo.inputs.InputKeywordsBrAndCost;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -44,9 +43,9 @@ public class FinalApplication extends Application {
             if (isLong(accountId)) {
                 googleAdsAccountId = Long.parseLong(accountId.getText().replace("-",""));
                 if (reportType.getValue().equals("Słowa kluczowe z wysokim współczynnikiem odrzuceń oraz wysokim kosztem")){
-                    KeyWordsBrAndCost.display(googleAdsAccountId);
+                    InputKeywordsBrAndCost.display(googleAdsAccountId);
                 } else if (reportType.getValue().equals("Znajdź aktywne duplikaty słów kluczowych")){
-                    GetDuplicateKeywords.getKeywords(googleAdsAccountId);
+                    //GetDuplicateKeywords.getKeywords(googleAdsAccountId);
                 } else {
                     BadInput.display("Error", "Wybierz raport");
                 }

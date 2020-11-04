@@ -4,7 +4,8 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple tool that allows to automate the generation of time-consuming reports in Google Ads
+This project is a simple tool that allows to automate the generation of time-consuming reports in Google Ads
+WARNING this tool is still in development phase 
 
 	
 ## Technologies

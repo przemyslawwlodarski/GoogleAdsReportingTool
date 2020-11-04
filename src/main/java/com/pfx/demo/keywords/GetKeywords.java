@@ -12,6 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+
+
 package com.pfx.demo.keywords;
 
 import com.google.ads.googleads.lib.GoogleAdsClient;
@@ -37,10 +39,12 @@ import java.util.List;
  * Gets keyword performance statistics for the 50 keywords with the most impressions over the last 7
  * days.
  */
+
 public class GetKeywords {
 
+  List<Keyword> keywordsList = new ArrayList<>();
+
   public List<Keyword> getKeywords(long customerId) {
-    List<Keyword> keywordsList = new ArrayList<>();
     GoogleAdsClient googleAdsClient = null;
     try {
       googleAdsClient = GoogleAdsClient.newBuilder().fromPropertiesFile().build();

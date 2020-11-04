@@ -1,6 +1,10 @@
-package com.pfx.demo.app;
+package com.pfx.demo.inputs;
 
-import com.pfx.demo.keywords.GetKeywordBrAndCost;
+import com.pfx.demo.app.BadInput;
+import com.pfx.demo.domain.Keyword;
+import com.pfx.demo.keywords.GetKeywords;
+import com.pfx.demo.reports.ReportMaker;
+import com.pfx.demo.reports.ReportPrinter;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -11,7 +15,9 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public class KeyWordsBrAndCost {
+import java.util.List;
+
+public class InputKeywordsBrAndCost {
 
     private static TextField bounceRateLevel;
     private static TextField costLevel;
@@ -30,8 +36,18 @@ public class KeyWordsBrAndCost {
             if (isDouble(bounceRateLevel)&&isDouble(costLevel)) {
                 finalBounceRateLevel = Double.parseDouble(bounceRateLevel.getText());
                 finalCostLevel = Double.parseDouble(costLevel.getText());
+                List<Keyword> keywordList;
+                List<Keyword> keywordListAfterReporting;
+
                 try{
-                    new GetKeywordBrAndCost().getKeyWords(googleAdsAccountId, finalBounceRateLevel, finalCostLevel);
+                    GetKeywords getKeywords = new GetKeywords();
+                    ReportMaker reportMaker = new ReportMaker();
+                    ReportPrinter reportPrinter = new ReportPrinter();
+
+                    keywordList = getKeywords.getKeywords(googleAdsAccountId);
+                    keywordListAfterReporting = reportMaker.brAndCostReport(keywordList, finalBounceRateLevel, finalCostLevel);
+                    reportPrinter.printReport(keywordListAfterReporting);
+
                 } catch (Exception exception){
                     BadInput.display("Error", "Podaj prawidłowy numer konta");
                 }
@@ -81,6 +97,5 @@ public class KeyWordsBrAndCost {
             return false;
         }
     }
-
 }
 
