@@ -94,7 +94,9 @@ public class GetDuplicateKeywords {
                             + "ad_group_criterion.keyword.text, "
                             + "ad_group_criterion.keyword.match_type "
                             + "FROM ad_group_criterion "
-                            + "WHERE ad_group_criterion.type = KEYWORD ";
+                            + "WHERE ad_group_criterion.type = KEYWORD "
+                            + "AND ad_group_criterion.negative = FALSE ";
+
             if (adGroupId != null) {
                 searchQuery += String.format("AND ad_group.id = %d", adGroupId);
             }
