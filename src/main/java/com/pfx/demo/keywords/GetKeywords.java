@@ -42,9 +42,8 @@ import java.util.List;
 
 public class GetKeywords {
 
-  List<Keyword> keywordsList = new ArrayList<>();
-
   public List<Keyword> getKeywords(long customerId) {
+    List<Keyword> keywordsList = new ArrayList<>();
     GoogleAdsClient googleAdsClient = null;
     try {
       googleAdsClient = GoogleAdsClient.newBuilder().fromPropertiesFile().build();
@@ -97,7 +96,7 @@ public class GetKeywords {
             AdGroupCriterion adGroupCriterion = googleAdsRow.getAdGroupCriterion();
             Metrics metrics = googleAdsRow.getMetrics();
 
-            Keyword keyword = new Keyword(adGroupCriterion.getKeyword().getText().replace("+", "'+"),
+            Keyword keyword = new Keyword(adGroupCriterion.getKeyword().getText().replaceFirst("[+]", "'+"),
                     adGroupCriterion.getKeyword().getMatchType().toString(),
                     adGroup.getName(),
                     campaign.getName(),

@@ -3,6 +3,7 @@ package com.pfx.demo;
 import com.pfx.demo.app.BadInput;
 import com.pfx.demo.app.Exit;
 import com.pfx.demo.inputs.InputKeywordsBrAndCost;
+import com.pfx.demo.keywords.GetNonNegativeKeywords;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -45,7 +46,10 @@ public class FinalApplication extends Application {
                 if (reportType.getValue().equals("Słowa kluczowe z wysokim współczynnikiem odrzuceń oraz wysokim kosztem")){
                     InputKeywordsBrAndCost.display(googleAdsAccountId);
                 } else if (reportType.getValue().equals("Znajdź aktywne duplikaty słów kluczowych")){
-                    //GetDuplicateKeywords.getKeywords(googleAdsAccountId);
+                    GetNonNegativeKeywords getNegativeKeyWords = new GetNonNegativeKeywords();
+                    getNegativeKeyWords.getNonNegativeKeywords(googleAdsAccountId);
+
+
                 } else {
                     BadInput.display("Error", "Wybierz raport");
                 }

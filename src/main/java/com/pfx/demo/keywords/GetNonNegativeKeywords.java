@@ -1,6 +1,5 @@
-package com.pfx.demo.workplace;
+package com.pfx.demo.keywords;
 
-import com.beust.jcommander.Parameter;
 import com.google.ads.googleads.lib.GoogleAdsClient;
 import com.google.ads.googleads.v5.common.KeywordInfo;
 import com.google.ads.googleads.v5.errors.GoogleAdsError;
@@ -11,14 +10,87 @@ import com.google.ads.googleads.v5.services.GoogleAdsRow;
 import com.google.ads.googleads.v5.services.GoogleAdsServiceClient;
 import com.google.ads.googleads.v5.services.GoogleAdsServiceClient.SearchPagedResponse;
 import com.google.ads.googleads.v5.services.SearchGoogleAdsRequest;
-import com.pfx.demo.utils.ArgumentNames;
-import com.pfx.demo.utils.CodeSampleParams;
+import com.pfx.demo.domain.Keyword;
 
-import javax.annotation.Nullable;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
-public class GetDuplicateKeywords {
+public class GetNonNegativeKeywords {
+
+    public List<Keyword> getNonNegativeKeywords(long customerId) {
+        List<Keyword> keywordsList = new ArrayList<>();
+        GoogleAdsClient googleAdsClient = null;
+        try {
+            googleAdsClient = GoogleAdsClient.newBuilder().fromPropertiesFile().build();
+        } catch (FileNotFoundException fnfe) {
+            System.err.printf(
+                    "Failed to load GoogleAdsClient configuration from file. Exception: %s%n", fnfe);
+            System.exit(1);
+        } catch (IOException ioe) {
+            System.err.printf("Failed to create GoogleAdsClient. Exception: %s%n", ioe);
+            System.exit(1);
+        }
+
+        try (GoogleAdsServiceClient googleAdsServiceClient =
+                     googleAdsClient.getLatestVersion().createGoogleAdsServiceClient()) {
+            String searchQuery =
+                    "SELECT ad_group.id, "
+                            + "ad_group_criterion.type, "
+                            + "ad_group_criterion.criterion_id, "
+                            + "ad_group_criterion.keyword.text, "
+                            + "ad_group_criterion.keyword.match_type "
+                            + "FROM ad_group_criterion "
+                            + "WHERE ad_group_criterion.type = KEYWORD "
+                            + "AND ad_group_criterion.negative = FALSE ";
+
+
+            SearchGoogleAdsRequest request =
+                    SearchGoogleAdsRequest.newBuilder()
+                            .setCustomerId(Long.toString(customerId))
+                            .setQuery(searchQuery)
+                            .build();
+            // Issues the search request.
+            SearchPagedResponse searchPagedResponse = googleAdsServiceClient.search(request);
+
+            // Iterates through the results in the stream response and prints all of the requested
+            // field values for the keyword in each row.
+            for (GoogleAdsRow googleAdsRow : searchPagedResponse.iterateAll()) {
+                AdGroup adGroup = googleAdsRow.getAdGroup();
+                AdGroupCriterion adGroupCriterion = googleAdsRow.getAdGroupCriterion();
+                KeywordInfo keywordInfo = adGroupCriterion.getKeyword();
+
+                Keyword keyword = new Keyword(adGroupCriterion.getKeyword().getText().replaceFirst("[+]", "'+"),
+                        adGroupCriterion.getKeyword().getMatchType().toString(),
+                        adGroup.getName(),
+                        "n/d",
+                        0.0,
+                        0.0,
+                        0);
+                keywordsList.add(keyword);
+            }
+            for (Keyword keywordObject: keywordsList){
+                System.out.println(keywordObject.getKeywordText() + " " + keywordObject.getKeywordMatchType());
+            }
+        } catch (GoogleAdsException gae) {
+            // GoogleAdsException is the base class for most exceptions thrown by an API request.
+            // Instances of this exception have a message and a GoogleAdsFailure that contains a
+            // collection of GoogleAdsErrors that indicate the underlying causes of the
+            // GoogleAdsException.
+            System.err.printf(
+                    "Request ID %s failed due to GoogleAdsException. Underlying errors:%n",
+                    gae.getRequestId());
+            int i = 0;
+            for (GoogleAdsError googleAdsError : gae.getGoogleAdsFailure().getErrorsList()) {
+                System.err.printf("  Error %d: %s%n", i++, googleAdsError);
+            }
+            System.exit(1);
+        }
+        return keywordsList;
+    }
+}
+/*
 
     private static final int PAGE_SIZE = 1_000;
 
@@ -56,7 +128,7 @@ public class GetDuplicateKeywords {
         }
 
         try {
-            new GetDuplicateKeywords().runExample(googleAdsClient, params.customerId, params.adGroupId);
+            new GetNonNegativeKeywords().runExample(googleAdsClient, params.customerId, params.adGroupId);
         } catch (GoogleAdsException gae) {
             // GoogleAdsException is the base class for most exceptions thrown by an API request.
             // Instances of this exception have a message and a GoogleAdsFailure that contains a
@@ -72,19 +144,10 @@ public class GetDuplicateKeywords {
             System.exit(1);
         }
     }
-
-    /**
-     * Runs the example.
-     *
-     * @param googleAdsClient the Google Ads API client.
-     * @param customerId the client customer ID.
-     * @param adGroupId the ad group ID for which keywords will be retrieved. If {@code null}, returns
-     *     from all ad groups.
-     * @throws GoogleAdsException if an API request failed with one or more service errors.
-     * @throws Exception if the example failed due to other errors.
-     */
+/*
     public void runExample(
             GoogleAdsClient googleAdsClient, long customerId, @Nullable Long adGroupId) {
+        List<Keyword> keywordsList = new ArrayList<>();
         try (GoogleAdsServiceClient googleAdsServiceClient =
                      googleAdsClient.getLatestVersion().createGoogleAdsServiceClient()) {
             String searchQuery =
@@ -116,15 +179,22 @@ public class GetDuplicateKeywords {
                 AdGroup adGroup = googleAdsRow.getAdGroup();
                 AdGroupCriterion adGroupCriterion = googleAdsRow.getAdGroupCriterion();
                 KeywordInfo keywordInfo = adGroupCriterion.getKeyword();
-                System.out.printf(
-                        "Keyword with text '%s', match type '%s', criteria type '%s', and ID %d "
-                                + "was found in ad group with ID %d.%n",
-                        keywordInfo.getText(),
-                        keywordInfo.getMatchType(),
-                        adGroupCriterion.getType(),
-                        adGroupCriterion.getCriterionId(),
-                        adGroup.getId());
+
+                Keyword keyword = new Keyword(adGroupCriterion.getKeyword().getText().replaceFirst("[+]", "'+"),
+                        adGroupCriterion.getKeyword().getMatchType().toString(),
+                        adGroup.getName(),
+                        "n/d",
+                        0.0,
+                        0.0,
+                        0);
+                keywordsList.add(keyword);
+
+                for (Keyword keywordObject: keywordsList){
+                    System.out.println(keywordObject.getKeywordText() + " " + keywordObject.getKeywordMatchType());
+                }
+
             }
         }
     }
 }
+*/
